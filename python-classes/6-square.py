@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#/usr/bin/python3
 """This module writes a class 'Square'.
 Initalizes a private instance attribute 'size' with option '(self, size=0):'.
 Property setter 'def size(self, value):' to set 'size'.
