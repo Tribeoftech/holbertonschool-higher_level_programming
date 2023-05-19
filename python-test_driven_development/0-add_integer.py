@@ -4,7 +4,7 @@
 add_integer - adds 2 integers
 a - first integer for addition
 b - second integer for addition
-Return: sum of addition
+Return: sum of addittion
 """
 
 
