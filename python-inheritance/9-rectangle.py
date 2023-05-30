@@ -1,34 +1,29 @@
 #!/usr/bin/python3
-
-"""
-This module creates a class 'Rectangle' that inherits attributes
-from the class 'BaseGeometry'
-"""
+""" Rectangle class inherits from BaseGeometry class in 7-base_geometry.py
+Instantiation with width and height: def __init__(self, width, height):
+width and height must be private. No getter or setter
+width and height must be positive integers, validated by integer_validator
+the area() method must be implemented and print() should print, and str()
+should return, the following rectangle description:
+[Rectangle] <width>/<height>"""
 
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
-    """-Inherits from BaseGeometry class
-    -Instantiated with width and height
-    -width and heigth must be private
-    -width and height must be positive integers, validated by
-    integer_validator in BaseGeometry
-    -Prints the area of our object with correct format
-    -Returns the area of our object with correct format"""
+    """Rectangle class inherits from BaseGeometry class"""
     def __init__(self, width, height):
-        super().__init__()
+        """Instantiation with width and height"""
         self.integer_validator("width", width)
         self.integer_validator("height", height)
         self.__width = width
         self.__height = height
 
-    def area(self):
-        """Calculates the area of our rectangle object"""
-        area = self.__width * self.__height
-        return area
-
     def __str__(self):
-        """Returns the desired output"""
-        return 
+        """returning the area of the rectangle"""
+        return "[Rectangle] {:d}/{:d}".format(self.__width, self.__height)
+
+    def area(self):
+        """the area() method must be implemented"""
+        return self.__width * self.__height
