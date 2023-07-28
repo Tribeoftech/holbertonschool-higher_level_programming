@@ -1,4 +1,19 @@
+<<<<<<< HEAD
 #!/usr/bin/node
+=======
+<<<<<<< HEAD
+#!/usr/bin/node
+const Args = process.argv.slice(2);
+if (Args.length === 0) {
+  console.log('No argument');
+} else if (Args.length === 1) {
+  console.log('Argument found');
+} else {
+  console.log('Arguments found');
+}
+=======
+// 2-arguments.js
+>>>>>>> refs/remotes/origin/master
 const argsCount = process.argv.length - 2;
 
 if (argsCount === 0) {
@@ -17,3 +32,4 @@ if (argsCount >= 3) {
   console.log(`Third argument: ${process.argv[3]}`);
 }
 
+>>>>>>> refs/remotes/origin/master
