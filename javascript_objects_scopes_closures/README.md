@@ -1,4 +1,4 @@
-This repository contains code and explanations for the "JavaScript - Objects, Scopes, and Closures" project. In this project, we explore important concepts related to objects, scopes, and closures in JavaScript, providing code examples and explanations to help you understand their behavior and usage.
+this repository contains code and explanations for the "JavaScript - Objects, Scopes, and Closures" project. In this project, we explore important concepts related to objects, scopes, and closures in JavaScript, providing code examples and explanations to help you understand their behavior and usage.
 
 Table of Contents
 Introduction
